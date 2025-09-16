@@ -62,7 +62,7 @@ export const mockClasses: Class[] = [
 export const mockUser: User = {
   id: '1',
   name: 'John Doe',
-  mobile: '+91 (1234567897',
+  mobile: '+91 1234567897',
   credits: 8,
   city: 'Mumbai',
   joinedDate: 'September 2025',
