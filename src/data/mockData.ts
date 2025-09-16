@@ -62,10 +62,10 @@ export const mockClasses: Class[] = [
 export const mockUser: User = {
   id: '1',
   name: 'John Doe',
-  mobile: '+1 (555) 123-4567',
+  mobile: '+91 (1234567897',
   credits: 8,
-  city: 'New York',
-  joinedDate: 'January 2024',
+  city: 'Mumbai',
+  joinedDate: 'September 2025',
 };
 
 export const instructors = Array.from(new Set(mockClasses.map(c => c.instructor))).sort();
