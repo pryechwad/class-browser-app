@@ -73,9 +73,9 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
         
         <View style={styles.illustrationContainer}>
           <Image
-            source={{ uri: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center' }}
+            source={{ uri: 'https://png.pngtree.com/png-clipart/20230824/original/pngtree-couple-in-meditation-man-woman-picture-image_8453155.png' }}
             style={styles.illustration}
-            resizeMode="cover"
+            resizeMode="contain"
           />
         </View>
       </Animated.View>
@@ -122,17 +122,12 @@ const styles = StyleSheet.create({
   },
   illustrationContainer: {
     marginTop: 40,
-    borderRadius: 20,
-    overflow: 'hidden',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   illustration: {
-    width: 280,
-    height: 160,
-    borderRadius: 20,
+    width: 200,
+    height: 200,
+    tintColor: 'rgba(255, 255, 255, 0.8)',
   },
 });
